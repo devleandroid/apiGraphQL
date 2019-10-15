@@ -90,7 +90,7 @@ Para testar o metodo deleteProduto:
 <pre>
   </code>
 mutation{
-deleteProduto(id:3)
+	deleteProduto(id:3)
 }
   </code>
 </pre>
