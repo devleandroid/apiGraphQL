@@ -68,21 +68,21 @@ Para testar o metodo salvarProduto:
 Para testar o metodo updateProduto:
 <pre>
    <code>
-            mutation{
-              updateProduto(update:{
-                id:"3"
-                Descricao:"Parafuso de Rosca", 
-                Marca:"Qualmor",
-                Tipo:"Ferragem",
-                Quantidade:"13"
-              } ){
-                id
-                getsDescricao
-                getsMarca
-                getsTipo
-                getsQntd
-              }
-            }
+    mutation{
+      updateProduto(update:{
+	id:"3"
+	Descricao:"Parafuso de Rosca", 
+	Marca:"Qualmor",
+	Tipo:"Ferragem",
+	Quantidade:"13"
+      } ){
+	id
+	getsDescricao
+	getsMarca
+	getsTipo
+	getsQntd
+      }
+    }
   </code>
 </pre>
 
@@ -94,7 +94,6 @@ Para testar o metodo deleteProduto:
       }
   </code>
 </pre>
-  
     
 </body>
 </html>
