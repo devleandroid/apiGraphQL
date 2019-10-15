@@ -47,21 +47,21 @@ Para testar o metodo idProduto:
 Para testar o metodo salvarProduto:
 <pre>
    <code>
-        mutation{
-          salvarProduto(produto:{
-            id:"3"
-            Descricao:"Parafuso", 
-            Marca:"Qualquer",
-            Tipo:"Ferramenta",
-            Quantidade:"3"
-          } ){
-            id
-            getsDescricao
-            getsMarca
-            getsTipo
-            getsQntd
-          }
-        }
+mutation{
+  salvarProduto(produto:{
+    id:"3"
+    Descricao:"Parafuso", 
+    Marca:"Qualquer",
+    Tipo:"Ferramenta",
+    Quantidade:"3"
+  } ){
+    id
+    getsDescricao
+    getsMarca
+    getsTipo
+    getsQntd
+  }
+}
    </code>
  </pre>
 
@@ -89,9 +89,9 @@ Para testar o metodo updateProduto:
 Para testar o metodo deleteProduto:
 <pre>
   </code>
-      mutation{
-        deleteProduto(id:3)
-      }
+mutation{
+deleteProduto(id:3)
+}
   </code>
 </pre>
     
