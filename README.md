@@ -1,4 +1,3 @@
-# https://github.com/ledroid/apiGraphQL
 # apiGraphQL Spring Boot With Java
 Aplicação criada para estudos sobre GraphQL
 
